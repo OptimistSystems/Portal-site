@@ -1,0 +1,5 @@
+sudo apt install apache2 php7.4
+sudo systemctl enable apache2
+git clone [this repository]
+sudo mv [this repository] /var/www/html
+sudo chown -R www-data:www-data .
